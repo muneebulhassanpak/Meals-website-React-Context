@@ -1,0 +1,11 @@
+@import url("../../index.module.css");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--container-width);
+  color: white;
+}

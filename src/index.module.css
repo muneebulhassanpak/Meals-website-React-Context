@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-purple: #451952;
+  --color-mehroon: #662549;
+  --color-brown: #ae445a;
+  --color-yellow: #f39f5a;
+  --color-white: #ffffff;
+  --container-width: 1200px;
+}
+body {
+  background-color: var(--color-purple);
+}
+
+.container {
+  background-color: var(--color-purple);
+}

@@ -1,0 +1,14 @@
+@import url("../../index.module.css");
+
+.cart-button {
+  background-color: var(--color-yellow);
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.cart-button > span {
+  font-weight: 700;
+}

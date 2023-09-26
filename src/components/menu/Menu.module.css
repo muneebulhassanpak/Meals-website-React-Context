@@ -1,0 +1,15 @@
+@import url("../../index.module.css");
+
+.menu-section {
+  max-width: 98%;
+  margin: 7rem auto;
+  padding: 3rem 1rem;
+  background-color: var(--color-white);
+  border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+  .menu-section {
+    max-width: 768px;
+  }
+}

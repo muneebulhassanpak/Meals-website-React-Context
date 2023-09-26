@@ -1,0 +1,74 @@
+@import url("../../index.module.css");
+
+.cart-modal {
+  width: 300px;
+  aspect-ratio: 4/1;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  background-color: var(--color-white);
+  color: black;
+  inset: 0;
+  z-index: 55;
+}
+.cart-modal > h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.cart-modal__item {
+  padding: 0.5rem 0rem;
+  border-bottom: 1px solid var(--color-brown);
+}
+.cart-modal__item > h3 {
+  text-align-last: left;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.cart-modal__item__detailsDiv {
+  display: flex;
+}
+
+.cart-modal__item__detailsDiv > button {
+  width: 50px;
+  height: 30px;
+  border-radius: 0.5rem;
+  background-color: var(--color-yellow);
+  color: white;
+  border: none;
+  margin-right: 0.2rem;
+}
+.cart-modal__item__detailsDiv__content {
+  display: flex;
+  flex: 2;
+  align-items: center;
+}
+.cart-modal__item__detailsDiv__content > p {
+  margin-left: 2rem;
+  border: 1px solid black;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+
+.cart-modal__controls {
+  margin: 1rem 0rem;
+}
+
+.cart-modal__controls > button {
+  width: 60px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
+.cart-modal__controls > :nth-child(2) {
+  background-color: var(--color-brown);
+  color: white;
+  margin-left: 0.5rem;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .cart-modal {
+    width: 500px;
+  }
+}
