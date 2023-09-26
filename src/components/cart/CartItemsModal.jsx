@@ -34,16 +34,16 @@ const CartItemsModal = (props) => {
     setCart(caartContext.cart);
   }, [caartContext.cart]);
   return (
-    <div className={styles["cart-modal"]}>
+    <div className={styles["cart-modal"]} onClick={(e) => {
+      e.stopPropagation();
+    }}>
       <h1>Your Cart</h1>
       {cart.length > 0 &&
         cart.map((cartItem) => (
           <div
             className={styles["cart-modal__item"]}
             key={Math.random()}
-            onClick={(e) => {
-              e.stopPropagation();
-            }}
+            
           >
             <h3>{cartItem.title}</h3>
             <div className={styles["cart-modal__item__detailsDiv"]}>
