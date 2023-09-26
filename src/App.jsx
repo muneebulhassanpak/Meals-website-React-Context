@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-import Menu from "./components/menu/menu";
+import Menu from "./components/menu/Menu";
 import cartContext from "./components/store/cart-context";
 
 const App = () => {
